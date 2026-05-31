@@ -1,0 +1,60 @@
+{
+  "books": [
+    {
+      "id": "1",
+      "title": "The Great Gatsby",
+      "author": "F. Scott Fitzgerald",
+      "publishedDate": "1925-04-10",
+      "imageUrl": "https://covers.openlibrary.org/b/id/7222246-L.jpg"
+    },
+    {
+      "id": "2",
+      "title": "To Kill a Mockingbird",
+      "author": "Harper Lee",
+      "publishedDate": "1960-07-11",
+      "imageUrl": "https://covers.openlibrary.org/b/id/8228691-L.jpg"
+    },
+    {
+      "id": "3",
+      "title": "1984",
+      "author": "George Orwell",
+      "publishedDate": "1949-06-08",
+      "imageUrl": "https://covers.openlibrary.org/b/id/7222246-L.jpg"
+    },
+    {
+      "id": "4",
+      "title": "Pride and Prejudice",
+      "author": "Jane Austen",
+      "publishedDate": "1813-01-28",
+      "imageUrl": "https://covers.openlibrary.org/b/id/8235657-L.jpg"
+    },
+    {
+      "id": "5",
+      "title": "The Catcher in the Rye",
+      "author": "J.D. Salinger",
+      "publishedDate": "1951-07-16",
+      "imageUrl": "https://covers.openlibrary.org/b/id/8228691-L.jpg"
+    },
+    {
+      "id": "6",
+      "title": "Harry Potter and the Philosopher's Stone",
+      "author": "J.K. Rowling",
+      "publishedDate": "1997-06-26",
+      "imageUrl": "https://covers.openlibrary.org/b/id/10521270-L.jpg"
+    },
+    {
+      "id": "7",
+      "title": "The Hobbit",
+      "author": "J.R.R. Tolkien",
+      "publishedDate": "1937-09-21",
+      "imageUrl": "https://covers.openlibrary.org/b/id/8566642-L.jpg"
+    },
+    {
+      "id": "8",
+      "title": "The Lord of the Rings",
+      "author": "J.R.R. Tolkien",
+      "publishedDate": "1954-07-29",
+      "imageUrl": "https://covers.openlibrary.org/b/id/8566642-L.jpg"
+    }
+  ]
+}

@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'core/constants/app_constants.dart';
+import 'features/splash/presentation/pages/splash_screen.dart';
 
 void main() {
   runApp(const BookstoreApp());
@@ -10,25 +12,20 @@ class BookstoreApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'My AI Bookstore',
+      title: AppConstants.appName,
+      debugShowCheckedModeBanner: false,
       theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.indigo),
+        colorScheme: ColorScheme.fromSeed(
+          seedColor: Colors.indigo,
+          brightness: Brightness.light,
+        ),
         useMaterial3: true,
+        appBarTheme: const AppBarTheme(
+          centerTitle: true,
+          elevation: 0,
+        ),
       ),
-      home: const BookstoreHomePage(),
-    );
-  }
-}
-
-class BookstoreHomePage extends StatelessWidget {
-  const BookstoreHomePage({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    return const Scaffold(
-      body: Center(
-        child: Text('Welcome to My AI Bookstore'),
-      ),
+      home: const SplashScreen(),
     );
   }
 }
